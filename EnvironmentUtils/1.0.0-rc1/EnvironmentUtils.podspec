@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/getlarky/environmentUtils-specs'
   s.license          = { :type => '1 Custom', :text => "<<-LICENSE Copyright (c) 2023, Larky, Inc. Please contact Larky (support@larky.com) for licensing details. LICENSE" }
   s.author           = { 'connorlarky' => 'connor@larky.com' }
-  s.source           = { :http => 'https://github.com/getlarky/environmentUtils-specs/releases/download/1.0.0-rc1/environmentUtils.zip'}
+  s.source           = { :http => 'https://github.com/getlarky/nudgeBase-specs-staging/releases/download/1.2.0-rc3/nudgeBase.zip'}
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'EnvironmentUtils/Sources/EnvironmentUtils/*.{swift}'
+  s.source_files = 'nudgeBase/Sources/EnvironmentUtils/*.{swift}'
   # s.frameworks = 'UIKit', 'MapKit'
 end
